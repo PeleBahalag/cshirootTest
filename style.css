@@ -1,0 +1,194 @@
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    direction: rtl;
+    font-family: VarelaRound;
+    background-image: url("media/DOC-20230315-WA0006..png");
+    background-size: 150% 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+@font-face {
+    font-family: VarelaRound;
+    src: url(media/VarelaRound-Regular.ttf);
+}
+
+#symbols {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 10%;
+}
+
+.shivtaLogo {
+    position: relative;
+    height: 100%;
+    margin-right: 2.5vw;
+    margin-bottom: 45vw;
+}
+
+.gapaLogo {
+    position: relative;
+    height: 85%;
+    margin-left: 48vw;
+    margin-bottom: 45vw;
+}
+
+#content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.titleText {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translateX(50%);
+    color: rgb(36, 67, 79);
+    font-size: 8vmax;
+    text-align: center;
+    width: 95%;
+}
+
+.button {
+    position: absolute;
+    bottom: 15vh;
+    right: 50%;
+    transform: translateX(50%);
+    color: white;
+    background-color: #7a412c;
+    border: transparent;
+    border-radius: 5vmin;
+    font-size: 4vmax;
+    padding: 2vmin;
+    width: fit-content;
+    height: fit-content;
+    font-family: VarelaRound;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    top: 23%;
+    font-size: 4vmax;
+    padding: 5vmin;
+    color: rgb(36, 67, 79);
+}
+
+.questionContainer {
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    position: absolute;
+    top: 2vh;
+    margin: 1.5vmax;
+}
+
+.question {
+    position: relative;
+    font-size: 3vmax;
+    margin: 0.5vmax;
+    padding: 0;
+}
+
+.questionTitle {
+    font-size: 4vmax;
+    font-weight: bold;
+}
+
+.questionButton {
+    position: relative;
+    bottom: auto;
+}
+
+.container {
+    position: relative;
+    font-size: 2.6vmax;
+    width: 90vw;
+    margin-top: 3vh;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+label input {
+    width: 5vw;
+    height: 2vh;
+}
+
+label {
+    margin-bottom: 2vmax;
+}
+
+.checked {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: transparent;
+    border-radius: 5vmin;
+}
+
+.wrongAnswer {
+    background-color: rgba(255, 86, 86, 0.5);
+    border: transparent;
+    border-radius: 5vmin;
+}
+
+.rightAnswer {
+    background-color: rgba(103, 255, 138, 0.5);
+    border: transparent;
+    border-radius: 5vmin;
+}
+
+.scrollContainer::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+  
+.scrollContainer::-webkit-scrollbar-track {
+    background: #e7e9eb;
+}
+  
+.scrollContainer::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
+  
+.scrollContainer::-webkit-scrollbar-thumb:window-inactive {
+    background: #ddd;
+}
+  
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+  
+.scrollContainer::-webkit-scrollbar-thumb:active {
+    background: #888;
+}
+
+.scrollContainer {
+    height: 37vh;
+    width: 90vw;
+    overflow: auto;
+    direction: ltr;
+}
+
+.questionText {
+    top: 0;
+    height: 35vh;
+    width: 83vw;
+    padding: 0.5vmax;
+    direction: rtl;
+}
+
+.finishText {
+    text-align: center;
+    top: 40%;
+}
+
