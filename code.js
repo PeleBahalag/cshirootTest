@@ -54,7 +54,7 @@ const QUESTION_TEMPLATE_HTML = `
         <div class="container" id="form_container">
             <form>
                 <label class="checked" id="label0">
-                    <input id="radio0" type="radio" name="radio" checked/>
+                    <input id="radio0" type="radio" name="radio"/>
                     <span id="span0">דרישה זו אינה פקודה</span>
                 </label>
                 <label id="label1">
